@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+     width: 40px;
+     text-align: center;
+     font-size: 9px;
+     padding-bottom: 8px;
+   }
+.container-4 button {
+    padding-right: 9px;
+    margin-right: -199px;
+}
+.container .centered {
+    font-size: 20px;
+    width: 450px;
+    height: 76px;
+    margin-top: -1px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 56px;
+    margin-right: -38px;
+    margin-left: -5px;
+}
+.container-1 .centered {
+    font-size: 37px;
+}
+tr .mobile-text-pad .apple-links {
+    padding-left: 0px;
+    font-size: small;
+    width: 36px;
+    padding-top: 0px;
+    padding-right: 0px;
+    position: static;
+    margin-right: 241px;
+    margin-left: -207px;
+}
+.container-4 button {
+    padding-top: 6px;
+}
+ }
+ @media screen and (max-width: 600px) {
+  body {
+     min-width: 280px;
+   }
+ }
+@media handheld{
+.container .centered {
+    font-size: 85px;
+}
+.btn {
+}
+}
